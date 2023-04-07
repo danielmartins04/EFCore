@@ -9,9 +9,9 @@ namespace eCommerce.API.Database
 
         }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer("Server=localhost,1433;Database=ecommerce;User ID=sa;Password=1q2w3e4r@#$");
-        //}
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Contato> Contatos { get; set; }
+        public DbSet<EnderecoEntrega> EnderecosEntrega { get; set; }
+        public DbSet<Departamento> Departamentos { get; set; }
     }
 }
