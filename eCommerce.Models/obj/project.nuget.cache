@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tfLBf/y2iT8ubHXH+ao0UHYbSKbBpeM5+2nEZiEoORp+eaYD1dM1jsN/khUA+hVAUtLgwv4qYUbQAR0QJl3pBA==",
+  "dgSpecHash": "4/CEZMRZKe6hmTkOiVAjotyzdr9a4kLGNTJgJjLLyRxvZUwGHJiAToG2Jik+du1oD6lqdlUdvyKHX9wM3w6quQ==",
   "success": true,
-  "projectFilePath": "C:\\desenvolvimento pessoal\\EFCore\\eCommerce\\eCommerce.Models\\eCommerce.Models.csproj",
+  "projectFilePath": "C:\\Users\\freit\\Desktop\\reforço entity\\EFCore\\eCommerce.Models\\eCommerce.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

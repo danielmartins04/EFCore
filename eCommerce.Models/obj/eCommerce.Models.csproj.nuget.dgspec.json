@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\desenvolvimento pessoal\\EFCore\\eCommerce\\eCommerce.Models\\eCommerce.Models.csproj": {}
+    "C:\\Users\\freit\\Desktop\\reforço entity\\EFCore\\eCommerce.Models\\eCommerce.Models.csproj": {}
   },
   "projects": {
-    "C:\\desenvolvimento pessoal\\EFCore\\eCommerce\\eCommerce.Models\\eCommerce.Models.csproj": {
+    "C:\\Users\\freit\\Desktop\\reforço entity\\EFCore\\eCommerce.Models\\eCommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\desenvolvimento pessoal\\EFCore\\eCommerce\\eCommerce.Models\\eCommerce.Models.csproj",
+        "projectUniqueName": "C:\\Users\\freit\\Desktop\\reforço entity\\EFCore\\eCommerce.Models\\eCommerce.Models.csproj",
         "projectName": "eCommerce.Models",
-        "projectPath": "C:\\desenvolvimento pessoal\\EFCore\\eCommerce\\eCommerce.Models\\eCommerce.Models.csproj",
-        "packagesPath": "C:\\Users\\francisco.daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\desenvolvimento pessoal\\EFCore\\eCommerce\\eCommerce.Models\\obj\\",
+        "projectPath": "C:\\Users\\freit\\Desktop\\reforço entity\\EFCore\\eCommerce.Models\\eCommerce.Models.csproj",
+        "packagesPath": "C:\\Users\\freit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\freit\\Desktop\\reforço entity\\EFCore\\eCommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\francisco.daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\freit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,10 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nexus.ambevdevs.com.br/nexus/repository/nuget-hosted/": {},
-          "https://pkgs.dev.azure.com/AMBEV-SA/AMBEV-BIFROST/_packaging/bifrost-packages/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AMBEV-SA/AMBEV-BIFROST/_packaging/canaa-packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
