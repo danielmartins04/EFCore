@@ -15,40 +15,40 @@ namespace eCommerce.API.Controllers
             _usuarioRepository = usuarioRepository;
         }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
+        //    [HttpGet]
+        //    public IActionResult Get()
+        //    {
 
-        }
+        //    }
 
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
-        {
-            var usuario = _usuarioRepository.Get(id);
-            if (usuario is null)
-                return NotFound();
+        //    [HttpGet("{id}")]
+        //    public IActionResult Get(int id)
+        //    {
+        //        var usuario = _usuarioRepository.Get(id);
+        //        if (usuario is null)
+        //            return NotFound();
 
-            return Ok(usuario)
-        }
+        //        return Ok(usuario)
+        //    }
 
-        [HttpPost]
-        public IActionResult Add([FromBody]Usuario usuario)
-        {
-            _usuarioRepository.Add(usuario);
-            return Ok(usuario);
-        }
+        //    [HttpPost]
+        //    public IActionResult Add([FromBody]Usuario usuario)
+        //    {
+        //        _usuarioRepository.Add(usuario);
+        //        return Ok(usuario);
+        //    }
 
-        [HttpPut("{id}")]
-        public IActionResult Update([FromBody]Usuario usuario, int id)
-        {
-            _usuarioRepository.Update(usuario);
-            return Ok(usuario);
-        }
+        //    [HttpPut("{id}")]
+        //    public IActionResult Update([FromBody]Usuario usuario, int id)
+        //    {
+        //        _usuarioRepository.Update(usuario);
+        //        return Ok(usuario);
+        //    }
 
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
-        {
-            _usuarioRepository.Delete(id);
-        }
+        //    [HttpDelete("{id}")]
+        //    public IActionResult Delete(int id)
+        //    {
+        //        _usuarioRepository.Delete(id);
+        //    }
     }
 }
